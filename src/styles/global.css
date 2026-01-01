@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #f8fafc, #eef2ff);
+  color: #0f172a;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(99, 102, 241, 0.35);
+}
+
+.feature-card,
+.price-card,
+.dashboard-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feature-card:hover,
+.price-card:hover,
+.dashboard-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card,
+.price-card {
+  padding: 30px;
+}
+
+.feature-card h3,
+.price-card h3 {
+  margin-bottom: 10px;
+}
+
+.price-card h2 {
+  margin: 15px 0;
+  color: #6366f1;
+}
+
+.dashboard-card {
+  padding: 24px;
+}
+
+.dashboard-card h3 {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.stat {
+  margin-top: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0f172a;
+}
+
+nav a {
+  opacity: 0.85;
+}
+
+nav a:hover {
+  opacity: 1;
+}
