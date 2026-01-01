@@ -27,22 +27,8 @@ This approach allows clear demonstration of frontend skills while keeping the ba
 
 ## Project Structure
 
-launchcraft/
-│
-├── backend/
-│   ├── server.js
-│   ├── data.js
-│   └── package.json
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   └── data/
-│
-├── package.json
-├── vite.config.js
-└── README.md
+![Project Screenshot](src/assets/images/image.png)
+
 
 ## Features Implemented
 
@@ -75,9 +61,7 @@ launchcraft/
 
 ### Step 1: Clone the Repository
 
-
-git clone <repository-url>
-cd launchcraft
+git clone https://github.com/Mahek-Lodaliya/launchcraft.git
 
 ### Step 2: Run Backend
 
